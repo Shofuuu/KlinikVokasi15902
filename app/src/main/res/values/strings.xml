@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">KlinikVokasi15902</string>
+
+    <string-array name="dokterKaliurang">
+        <item>dr. Andi</item>
+        <item>dr. Budi</item>
+    </string-array>
+
+    <string-array name="dokterParangtritis">
+        <item>dr. Callista</item>
+        <item>dr. Budi</item>
+        <item>dr. Dian</item>
+    </string-array>
+
+    <string-array name="dokterMagelang">
+        <item>dr. Andi</item>
+        <item>dr. Erna</item>
+        <item>dr. Fauzan</item>
+    </string-array>
+
+    <string-array name="jamPagi">
+        <item>09.00 a.m</item>
+        <item>10.00 a.m</item>
+        <item>11.00 a.m</item>
+    </string-array>
+
+    <string-array name="jamSiang">
+        <item>14.00 p.m</item>
+        <item>15.00 p.m</item>
+        <item>16.00 p.m</item>
+    </string-array>
+
+    <string-array name="jamMalam">
+        <item>18.00 p.m</item>
+        <item>19.00 p.m</item>
+        <item>20.00 p.m</item>
+    </string-array>
+
+    <string-array name="provinsi">
+        <item>Yogyakarta</item>
+        <item>Jawa Timur</item>
+        <item>Jawa Tengah</item>
+        <item>Jawa Barat</item>
+        <item>Lampung</item>
+    </string-array>
+</resources>

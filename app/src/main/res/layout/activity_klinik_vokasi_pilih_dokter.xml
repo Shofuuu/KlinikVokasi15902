@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".klinikVokasiPilihDokter"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/txtPilihJam"
+        android:layout_width="296dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="136dp"
+        android:gravity="center"
+        android:text="Pilih Dokter\nJalan xxx"
+        android:textColor="@color/textColor"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLanjutDataDiri"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button"
+        android:text="LANJUT"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioJam" />
+
+    <RadioGroup
+        android:id="@+id/radioJam"
+        android:layout_width="305dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPilihJam">
+
+        <RadioButton
+            android:id="@+id/radioWaktuA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dr. AAA"
+            android:textColor="@color/textColor"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioWaktuB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dr. BBB"
+            android:textColor="@color/textColor"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioWaktuC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dr. CCC"
+            android:textColor="@color/textColor"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

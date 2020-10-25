@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".klinikVokasiSelesai">
+
+    <TextView
+        android:id="@+id/txtSelesai"
+        android:layout_width="339dp"
+        android:layout_height="331dp"
+        android:layout_marginTop="128dp"
+        android:gravity="center"
+        android:text="Klinik Vokasi\nPilih Lokasi"
+        android:textColor="@color/textColor"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSelesai"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/button"
+        android:text="Selesai!"
+        android:textAllCaps="false"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSelesai" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

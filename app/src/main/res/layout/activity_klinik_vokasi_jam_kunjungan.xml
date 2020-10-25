@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".klinikVokasiJamKunjungan">
+
+    <TextView
+        android:id="@+id/txtPilihJam"
+        android:layout_width="296dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="136dp"
+        android:gravity="center"
+        android:text="Pilih Waktu\nKunjungan xxx"
+        android:textColor="@color/textColor"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLanjutDataDiri"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/button"
+        android:text="LANJUT"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbWaktuC" />
+
+    <CheckBox
+        android:id="@+id/cbWaktuA"
+        android:layout_width="291dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:text="AAA"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPilihJam" />
+
+    <CheckBox
+        android:id="@+id/cbWaktuC"
+        android:layout_width="291dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:text="CCC"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbWaktuB" />
+
+    <CheckBox
+        android:id="@+id/cbWaktuB"
+        android:layout_width="291dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:text="BBB"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbWaktuA" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
